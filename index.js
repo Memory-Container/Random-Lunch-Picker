@@ -9,5 +9,5 @@ function getRandomFood() {
     last = random;
     console.log(random)
     let food = document.querySelector(".food")
-    food.innerHTML = foodArray[random]
+    food.innerHTML = `Hôm nay bạn nên ăn: ${foodArray[random]}`
 }
